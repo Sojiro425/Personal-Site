@@ -1,0 +1,41 @@
+p { color: darkblue;
+  font-size: 15pt;
+  font-family: Comic Sans MS;
+}
+
+
+
+h1 { color: royalblue;
+  font-family: Comic Sans MS;
+
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+li { color: darkred;
+  font-size: 15pt;
+  font-family: Comic Sans MS
+}
+
+
+
+.column {
+  float: right;
+  width: 34.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

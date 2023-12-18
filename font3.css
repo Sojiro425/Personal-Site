@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+p { color: darkblue;
+  font-size: 15pt;
+  font-family: Comic Sans MS;
+}
+
+
+
+h1 { color: royalblue;
+  font-family: Comic Sans MS;
+
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Style the main content */
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul.contact-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.contact-links li {
+    margin: 10px 0;
+}
+
+ul.contact-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
